@@ -12,3 +12,12 @@ npx create-expo-app -e with-router
 
 - [Expo Router: Docs](https://expo.github.io/router)
 - [Expo Router: Repo](https://github.com/expo/router)
+
+# Implementation 
+
+```
+npx create-expo-app@latest -e with-router ./
+npm install expo-font axios react-native-dotenv
+npm install -g expo-cli
+expo-cli start --tunnel
+```
