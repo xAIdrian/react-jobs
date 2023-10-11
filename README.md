@@ -21,3 +21,10 @@ npm install expo-font axios react-native-dotenv
 npm install -g expo-cli
 expo-cli start --tunnel
 ```
+
+# Error Notes
+Running into configuration problems with not finding .env?
+@env could not be found
+```
+rm -rf node_modules/.cache/babel-loader/*
+```
