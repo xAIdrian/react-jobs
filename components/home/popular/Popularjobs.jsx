@@ -19,6 +19,10 @@ const Popularjobs = () => {
       num_pages: 1
     }
   )
+  const [selectedJob, setSelectedJob] = useState(null)
+  const handleCardPress = (item) => {
+    
+  }
 
   return (
     <View style={ styles.container }>
